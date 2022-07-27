@@ -1,0 +1,21 @@
+from operator import mul
+
+# function find max number of three given numbers
+def max_num(num1, num2, num3):
+    return max([num1,num2,num3])
+
+# function multiplies numbers in list
+def mult_list(list):
+    return mul(list)
+
+# function reverses string
+def rev_string(str):
+    return str[::-1]
+
+
+
+
+# outputs
+
+print(max_num(2,412,213))
+print(max_num(1,2,3))
